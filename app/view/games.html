@@ -1,0 +1,20 @@
+<div>
+    Search a Game:	<input class="input" ng-model="query">
+</div>
+
+<div >
+	<table class="table table-striped table-bordered">
+	    <tr>
+	    	<th>Title</th>
+	    	<th>Pri ce</th>
+	    	<th>Rating</th>
+	    </tr>
+		<tr ng-repeat="x in myData | filter:query">
+	      
+	      <td>{{x.title | uppercase}}</td>
+	      <td>{{x.Price | currency}}</td>
+	      <td>{{x.rating | number}}</td>		
+		
+		</tr>
+	</table>
+</div>

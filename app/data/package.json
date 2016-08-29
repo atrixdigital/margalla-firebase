@@ -1,0 +1,33 @@
+{
+
+  "Package": [{
+      "Name": "Hagg Package",
+      "Price": "Rs.250000",
+      "Transport": "Bus",
+      "description": "The Hajj (Pilgrimage) is an annual Islamic pilgrimage to Mecca, and a mandatory religious duty for Muslims that must be carried out at least once in their lifetime by all adult Muslims who are physically and financially capable of undertaking the journey, and can support their family during their absence.",
+      "packageImage": "app/images/img_two.jpg"
+    },
+
+    {
+      "Name": "NewYork Package",
+      "Price": "Rs.333000",
+      "Transport": "Bus",
+      "description": "New York is a very attractive city of America. First, the Statue of Liberty is modern marvel and national monument that symbolizes independence, friendship and democracy. The national monument allows people to study America’s independent history and provided a spectacular view of the harbor.",
+      "packageImage": "app/images/img_three.jpg"
+    },
+
+    {
+      "Name": "Umrah Package",
+      "Price": "Rs.33000",
+      "Transport": "Bus",
+      "description": "The ʿUmrah (Arabic: عمرة‎‎) is a pilgrimage to Mecca, Saudi Arabia, performed by Muslims that can be undertaken at any time of the year, in contrast to the Hajj. In Arabic, Umrah means to visit a populated place. In the Sharia, Umrah means to perform Tawaf round the Kaaba and Sa'i between Al-Safa and Al-Marwah.",
+      "packageImage": "app/images/img.jpg"
+    }, {
+      "Name": "NewYork Package",
+      "Price": "Rs.333000",
+      "Transport": "Bus",
+      "description": "New York is a very attractive city of America. First, the Statue of Liberty is modern marvel and national monument that symbolizes independence, friendship and democracy. The national monument allows people to study America’s independent history and provided a spectacular view of the harbor.",
+      "packageImage": "app/images/img_three.jpg"
+    }
+  ]
+}

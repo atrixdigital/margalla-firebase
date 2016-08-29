@@ -1,0 +1,51 @@
+
+<div class="scrollCustom">
+<div class=container >
+
+
+
+       <div class="row">
+           
+            <div class="animated fadeInUp">
+
+                <!--First columnn-->
+                <div class="col-md-4" ng-repeat="x in myData">
+                    <!--Card-->
+                    <div class="card">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="{{x.packageImage}}" class="img-fluid" alt="">
+                            <a href="#">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h2 class="card-title"><strong>{{x.Name}}</strong></h2>
+                            <h4 class="card-title">Price: <strong>{{x.Price}}</strong></h4>
+                            <h4 class="card-title">Transport:<strong>{{x.Transport}}</strong></h4>
+                            
+                            <!--Text-->
+                            <p class="card-text">{{x.description}}</p>
+                            
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                        
+
+                    <!--/.Card-->
+                      
+
+                </div>
+                <!--First columnn-->
+             </div>
+                
+            </div>
+
+ </div>           
+ </div>

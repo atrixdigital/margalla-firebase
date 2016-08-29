@@ -1,0 +1,32 @@
+{
+	"Package": [
+
+		{
+			"Name": "Umrah Package",
+			"Price": "Rs.23000",
+			"Transport": "Bus",
+			"Distance": "200 km",
+			"packageImage": "app/img.jpg"
+		}, {
+			"Name": "Hagg Package",
+			"Price": "Rs.250000",
+			"Transport": "Bus",
+			"Distance": "200 km",
+			"packageImage": "app/img_three.jpg"
+		}, {
+			"Name": "NewYork Package",
+			"Price": "Rs.333000",
+			"Transport": "Bus",
+			"Distance": "200 km",
+			"packageImage": "app/img_two.jpg"
+		},{
+			"Name": "NewYork Package Test" ,
+			"Price": "Rs.333000",
+			"Transport": "Bus",
+			"Distance": "200 km",
+			"packageImage": "app/img_two.jpg"
+		}
+
+
+	]
+}

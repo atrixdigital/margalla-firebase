@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+
+<!-- <link rel="stylesheet" type="text/css" href="app/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="app/bower_components/bootstrap/dist/css/custom.css">
+ -->
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Margalla Travels</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+     <script src="https://cdn.jsdelivr.net/holder/2.9.0/holder.min.js">
+</script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <link href="css/style.css" rel="stylesheet">
+
+	
+</head>
+<body>
+
+
+  
+  <div ng-include="'app/view/header.html'"></div>
+  <div class="view hm-black-strong">
+        
+        <div class="full-bg-img flex-center">
+            <main ng-view> </main>
+            
+        </div>
+    
+    </div>  
+  <div ng-include="'app/view/footer.html'"></div>
+  
+
+
+
+ <!-- SCRIPTS -->
+
+
+ 
+<!-- 000   -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+<!-- angular dependencies -->
+<script src="app/lib/angular/angular.js"></script>
+<script src="app/lib/angular-route.min.js"></script>
+     <!-- angularFire -->
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/1.2.0/angularfire.min.js"></script>
+
+
+
+<!-- app.js file -->
+<script src="app/app.js"></script>
+<script src="app/route.js"></script>
+
+<!--angular controllers -->
+<script src="app/controller/moviesController.js"></script>
+<script src="app/controller/gamesController.js"></script>
+<script src="app/controller/adminController.js"></script>
+<script src="app/controller/bookingController.js"></script>
+<script src="app/controller/homeController.js"></script>
+<script src="app/controller/packageController.js"></script>
+
+<script src="node_modules/angular-filter/dist/angular-filter.js"></script>
+
+
+</body>
+</html>
+
+<!-- practice filters and make buttons and get its data first last unique toarray groupBy map math boolean filters preety url  -->
+
+<!-- Margalla Travels 
+ Full image background
+ packages
+ about us
+ Contact us
+
+
+
+|||  packages, Booking 
+
+00000
+Admin Panel ___ 
+PACKAGE > add , delete, create, 
+View Booking
+
+
+Admin Panel 
+- PACKAGE - CRUD 
+- Booking 
+
+
+USer Front End- 
+  Enter details. 
+
+  Ng- Form > ?? 
+  
+
+PACKAGE ( only admin can add package)
+- Package name
+- Price 
+- MakkahStay 
+- MadinaStay
+- Total days = makkahStay + MadinaStay
+- Transport 
+- distance
+
+
+Booking 
+ - Select package 
+ - Name
+ - Phone number
+ - Email 
+ - Number of People 
+ - Cost = no. of people * package.price
+
+ - - - Confirm 
+   Display a message, Booking confirmed
+
+
+
+ 000000
+ Booking
+  PACKAGE > 3 STAR, 4STAR, 5 STAR
+  hotels -? select 3 hotels 
+  visa cost  
+  transport ? bus, car,apv
+  Room Type ? double ,tripple, quad ,sharing
+  ticket ? yes, no
+
+  -->

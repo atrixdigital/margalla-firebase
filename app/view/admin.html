@@ -1,0 +1,148 @@
+
+
+
+<div class="scrollCustom">
+<div class="animated fadeInUp">
+
+
+<div class="container">
+<!--Add package form-->
+<form ng-submit="saveFire()">
+    <!--First row-->
+    <div class="row ">
+        <div class="col-md-4">
+        	<h3></i class="form1"> Add New Package</h3>
+        </div>
+
+        <!--First column-->
+        <div class="col-md-4">
+            <div class="md-form">
+                
+                <input ng-model="newName" type="text" id="form81" class="form-control validate">
+                <label for="form81" data-error="wrong" data-success="right">Type Package Name</label>
+            </div>
+        </div>
+
+        <!--Second column-->
+        <div class="col-md-4">
+            <div class="md-form">
+                
+                <input ng-model="newPrice" type="text" id="form82" class="form-control validate">
+                <label for="form82" data-error="wrong" data-success="right">Type Package Price(Example:Rs.30000</label>
+            </div>
+        </div>
+    </div>
+    <!--/.First row-->
+
+    <!--Second row-->
+    <div class="row">
+        <!--First column-->
+        <div class="col-md-12">
+
+            <div class="md-form">
+                <textarea ng-model="newDescription" type="text" maxlength="310" minlength="290" id="form76" class="md-textarea"></textarea>
+                <label for="form76">Type Package Description</label>
+            </div>
+
+        </div>
+    </div>
+    <!--/.Second row-->
+
+    <!--Third row-->
+    <div class="row">
+
+        <!--First column-->
+        <div class="col-md-4">
+            <div class="md-form">
+                <input ng-model="newTransport" type="text" id="form41" class="form-control">
+                <label for="form41" class="">Enter Transport</label>
+            </div>
+        </div>
+
+        <!--Second column-->
+        <div class="col-md-4">
+            
+    <div class="file-field">
+        <button class="btn btn-success">
+             <span>Choose Image(1800x1200)</span> 
+            <input ng-model="newImage" type="file">
+        </button>
+       
+    </div>
+        </div>
+        <div class="container"> 
+         <div class="row">
+     	   <div class="col-md-12">
+     		<button type="submit" class="btn btn-primary">Submit Package</button>
+     	   </div>
+          
+          </div>
+        </div>
+        
+
+    </div>
+    <!--/.Third row-->
+    </form>
+</div>
+
+
+<div class=container >
+
+
+
+       <div class="row">
+           
+            <div class="animated fadeInUp">
+
+                <!--First columnn-->
+                <div class="col-md-4" ng-repeat="x in myData">
+                    <!--Card-->
+                    <div class="card">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="{{x.packageImage}}" class="img-fluid" alt="">
+                            <a href="#">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h2 class="card-title"><strong>{{x.Name}}</strong></h2>
+                            <h4 class="card-title">Price: <strong>{{x.Price}}</strong></h4>
+                            <h4 class="card-title">Transport:<strong>{{x.Transport}}</strong></h4>
+                            
+                            <!--Text-->
+                            <p class="card-text">{{x.description}}</p>
+                            <button ng-click="myData.$remove(x)" class="btn btn-danger">Delete Package</button>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                        
+
+                    <!--/.Card-->
+                      
+
+                </div>
+                <!--First columnn-->
+             </div>
+                
+            </div>
+
+ </div>           
+<!-- <h3></i class="form1"> Add New Package</h3> -->
+
+
+
+
+<!--Add package form-->
+</div>
+
+</div>
+
+
+

@@ -1,0 +1,16 @@
+{
+	"movies":[
+
+		    {"title":"Zootopia","genre":"Crime","price":99,"rating":6},
+                 {"title":"The angry bird","genre":"Animation","price":78,"rating":6},
+                 {"title":"Central intellegence","genre":"Crime","price":23,"rating":3},
+                 {"title":"ghoustbuster","genre":"Animation","price":65,"rating":8},
+                 {"title":"Teenage Mutant Ninja Turtles","genre":"Comedy","price":12,"rating":8},
+                 {"title":"Demolition","genre":"Drama","price":75,"rating":7},
+                 {"title":"spy","genre":"Thriller","price":72,"rating":9},
+                 {"title":"The Brothers Grimsby","genre":"Action","price":56,"rating":3},
+                 {"title":"Minions","genre":"Animation","price":45,"rating":5}
+                 
+                 ]
+	
+}
